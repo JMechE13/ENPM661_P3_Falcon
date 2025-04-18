@@ -15,7 +15,7 @@ UID: 116534321
 # Instructions
 Due to the large size of the original repo, this repo only contains the files that were modified from the original
 
-Follow the original repo instructions up to and including step 4. After doing so, find the files that are mentioned in this repo in the original one and replace them with the files in this repo -- the file structure should be the same.
+Follow the original repo (link provided at end of README.md) instructions up to and including step 4. After doing so, find the files that are mentioned in this repo in the original one and replace them with the files in this repo -- the file structure should be the same.
 
 After making those changes, update the two paths in the launch.py file: 'cwd=' and '-scenario' to your own full paths as mentioned in step 5. No other changes need to be made.
 
