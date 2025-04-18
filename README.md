@@ -35,7 +35,7 @@ ros2 launch astar_falcon_planner ros_falcon_astar.launch.py
 
 # Note
 
-If the start position should be changed when launching the file from the default values, the starting position in the 'AMRPathPlanning.usda' need to be changed as that is where the turtlebot spawns in the Sim. The top left of the maze is the origin with right being +x and down being +y. The absolute coordinates for the origin are 1600,600,0 which are in cm. The parameters passed when naming them in the launch command are in meters relative to the origin as if the origin was 0,0. The defaults in the launch file are the same.
+If the start position should be changed when launching - by either changing defaults or from command line parameter assigning, the starting position in the 'AMRPathPlanning.usda' need to be changed as that is where the turtlebot spawns in the Sim. The top left of the maze is the origin with right being +x and down being +y. The absolute coordinates for the origin are 1600,600,0 which are in cm. The parameters passed when naming them in the launch command are in meters relative to the origin as if the origin was 0,0. The defaults in the launch file are the same.
 
 Example: 
 To change start position to 0.5,0.5,0 in launch command/file you must go to 'AMRPathPlanning.usda' and change spawn point to 1600+50, 600+50,0  -- note the conversion from m to cm.
